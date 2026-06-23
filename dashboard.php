@@ -17,16 +17,21 @@ $name = $_SESSION["name"];
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="dashboard-body">
 
-<div class="container">
+<nav class="dashboard-navbar">
     <h2>Dashboard</h2>
+    <a href="logout.php" class="nav-logout">Logout</a>
+</nav>
 
-    <p>Welcome, <strong><?php echo htmlspecialchars($name); ?></strong>!</p>
-    <img src="image/kuromi_witch.webp" alt="Kuromi Image" class="dashboard-img">
-    <p>You have successfully logged in.</p>
+<div class="dashboard-content">
+    <div class="dashboard-card">
+        <h1>Welcome, <strong><?php echo htmlspecialchars($name); ?></strong>!</h1>
 
-    <a href="logout.php" class="logout-btn">Logout</a>
+        <img src="image/kuromi_witch.webp" alt="Kuromi Image" class="dashboard-img">
+
+        <p>You have successfully logged in.</p>
+    </div>
 </div>
 
 </body>

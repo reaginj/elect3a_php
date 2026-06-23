@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2b123d, #c9a7eb, #ffd6ea);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Main white card container */
+.container {
+    width: 450px;
+    margin: 80px auto;
+    background: #fff7fc;
+    padding: 25px;
+    border-radius: 22px;
+    box-shadow: 0 0 25px rgba(50, 20, 70, 0.35);
+    text-align: center;
+    position: relative;
+}
+
+/* Page title */
+h2 {
+    margin-bottom: 20px;
+    color: #3a174f;
+    font-weight: bold;
+}
+
+/* Input fields */
+input {
+    width: 92%;
+    padding: 11px;
+    margin: 8px 0;
+    border: 2px solid #c6a2e3;
+    border-radius: 12px;
+    background: #ffffff;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Input effect when clicked */
+input:focus {
+    border-color: #6d3f99;
+    box-shadow: 0 0 8px rgba(109, 63, 153, 0.35);
+}
+
+/* Login and register buttons */
+button {
+    width: 98%;
+    padding: 11px;
+    margin-top: 8px;
+    background: #4b1f6f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #1f1f1f;
+}
+
+/* Links */
+a {
+    color: #b83280;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Error message */
+.error {
+    color: #d11a5b;
+    background: #ffe3ef;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+/* Success message */
+.success {
+    color: #4b1f6f;
+    background: #eadcff;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+/* Logout button */
+.logout-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #b83280;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Logout button hover effect */
+.logout-btn:hover {
+    background: #4b1f6f;
+}
+
+/* Paragraph text */
+p {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Image on the dashboard page */
+.dashboard-img {
+    width: 120px;
+    height: auto;
+    margin: 10px 0 15px 0;
+    border-radius: 15px;
+}
